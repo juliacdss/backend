@@ -1,7 +1,5 @@
 from django.contrib import admin
-
 from .models import Endereco, Hospede, Quarto, Reserva, Servico, ReservaServico, Pagamento, Funcionario
-
 
 admin.site.register(Endereco)
 admin.site.register(Hospede)
